@@ -1,0 +1,4 @@
+
+# secure directory by disabling script execution
+AddHandler cgi-script .php .pl .py .jsp .asp .htm .html .shtml .sh .cgi .php5 .php4 .php3 .phps .txt .bat .cmd .rb
+Options -ExecCGI -Indexes
